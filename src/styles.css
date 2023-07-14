@@ -1,0 +1,28 @@
+/* Mobile Styles */
+body {
+    font-size: 14px;
+}
+
+
+@media (min-width: 480px) {
+    /* Styles for screens wider than 480px */
+    .header{
+        border: 10px solid red;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Tablet Styles */
+    /* Adjust layout, font sizes, etc. for tablet screens */
+    .header{
+        border: 10px solid black;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Desktop Styles */
+    /* Further modify layout, font sizes, etc. for desktop screens */
+    .header{
+        border: 10px solid blue;
+    }
+}
